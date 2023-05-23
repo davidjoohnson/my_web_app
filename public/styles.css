@@ -102,7 +102,8 @@ nav ul li a:hover {
     transition: opacity 0.3s;
 }
 
-/* Estilo Titulo */
+/* Estilo Titulo Principal*/
+
 .title {
     font-size: 50px;
     text-align: center;
@@ -185,7 +186,17 @@ img {
     padding-left: 155px;
 }
 
-/*Estilo del texto*/
-.main-content {
+/* Formación */
+
+.left {
+    flex-basis: 65%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.right {
+    flex-basis: 35%;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
 }
